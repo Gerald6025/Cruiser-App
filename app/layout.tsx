@@ -40,13 +40,15 @@ export default function RootLayout({
           />
         </div>
      
-     <div className="flex  items-center justify-center list-none gap-10">
+     <div>
+      <ul className="flex  items-center justify-center list-none gap-10">
          <li className="hover:text-[#C53030] nav"><Link href='/'>Home</Link></li>
      <li className="hover:text-[#C53030] nav"><Link href='/'>Models</Link></li>
       <li className="hover:text-[#C53030] nav"><Link href='/'>Features</Link></li>
       <li className="hover:text-[#C53030] nav"><Link href='/'>Gallery</Link></li>
       <li className="hover:text-[#C53030] nav"><Link href='/'>Contact</Link></li>
       <li className="bg-[#c53030] text-white py-2 px-5 rounded-lg"><Link href='/'>Build & Price</Link></li>
+    </ul>
      </div>
      
       </div>

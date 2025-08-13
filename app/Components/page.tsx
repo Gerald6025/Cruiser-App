@@ -1,7 +1,24 @@
 import React from "react";
 import Link from "next/link";
 
-const Banner = (ban) => {
+interface BannerProps {
+  div1styles: string;
+  div2styles: string;
+  div3styles: string;
+  title1styles: string;
+  title2styles: string;
+  title1: string;
+  title2: string;
+  descriptionstyles: string;
+  description: string;
+  buttondivstyles: string;
+  button1styles: string;
+  button1text: string;
+  button2styles: string;
+  button2text: string;
+}
+
+const Banner: React.FC<BannerProps> = (ban) => {
   return (
     <div className={ban.div1styles}>
       <div className={ban.div2styles}>
